@@ -8,15 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		03C56CB1285F304C00EA33C3 /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C56CB0285F304C00EA33C3 /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C56CBE285F313400EA33C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C56CBD285F313400EA33C3 /* AppDelegate.swift */; };
+		03C56CC0285F313400EA33C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C56CBF285F313400EA33C3 /* SceneDelegate.swift */; };
+		03C56CC2285F313400EA33C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C56CC1285F313400EA33C3 /* ViewController.swift */; };
+		03C56CC5285F313400EA33C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C56CC3285F313400EA33C3 /* Main.storyboard */; };
+		03C56CC7285F313500EA33C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C56CC6285F313500EA33C3 /* Assets.xcassets */; };
+		03C56CCA285F313500EA33C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C56CC8285F313500EA33C3 /* LaunchScreen.storyboard */; };
+		03C56CD0285F37B900EA33C3 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C56CCF285F37B900EA33C3 /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03C56CAD285F304C00EA33C3 /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C56CB0285F304C00EA33C3 /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
+		03C56CBB285F313400EA33C3 /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C56CBD285F313400EA33C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C56CBF285F313400EA33C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03C56CC1285F313400EA33C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C56CC4285F313400EA33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C56CC6285F313500EA33C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C56CC9285F313500EA33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C56CCB285F313500EA33C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C56CCF285F37B900EA33C3 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		03C56CAA285F304C00EA33C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C56CB8285F313400EA33C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				03C56CAF285F304C00EA33C3 /* SwiftyLib */,
+				03C56CBC285F313400EA33C3 /* SwiftyLibExamples */,
 				03C56CAE285F304C00EA33C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				03C56CAD285F304C00EA33C3 /* SwiftyLib.framework */,
+				03C56CBB285F313400EA33C3 /* SwiftyLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,8 +71,23 @@
 			isa = PBXGroup;
 			children = (
 				03C56CB0285F304C00EA33C3 /* SwiftyLib.h */,
+				03C56CCF285F37B900EA33C3 /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
+			sourceTree = "<group>";
+		};
+		03C56CBC285F313400EA33C3 /* SwiftyLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				03C56CBD285F313400EA33C3 /* AppDelegate.swift */,
+				03C56CBF285F313400EA33C3 /* SceneDelegate.swift */,
+				03C56CC1285F313400EA33C3 /* ViewController.swift */,
+				03C56CC3285F313400EA33C3 /* Main.storyboard */,
+				03C56CC6285F313500EA33C3 /* Assets.xcassets */,
+				03C56CC8285F313500EA33C3 /* LaunchScreen.storyboard */,
+				03C56CCB285F313500EA33C3 /* Info.plist */,
+			);
+			path = SwiftyLibExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +122,23 @@
 			productReference = 03C56CAD285F304C00EA33C3 /* SwiftyLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		03C56CBA285F313400EA33C3 /* SwiftyLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C56CCC285F313500EA33C3 /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */;
+			buildPhases = (
+				03C56CB7285F313400EA33C3 /* Sources */,
+				03C56CB8285F313400EA33C3 /* Frameworks */,
+				03C56CB9285F313400EA33C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLibExamples;
+			productName = SwiftyLibExamples;
+			productReference = 03C56CBB285F313400EA33C3 /* SwiftyLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,9 +146,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					03C56CAC285F304C00EA33C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					03C56CBA285F313400EA33C3 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -110,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				03C56CAC285F304C00EA33C3 /* SwiftyLib */,
+				03C56CBA285F313400EA33C3 /* SwiftyLibExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +185,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03C56CB9285F313400EA33C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C56CCA285F313500EA33C3 /* LaunchScreen.storyboard in Resources */,
+				03C56CC7285F313500EA33C3 /* Assets.xcassets in Resources */,
+				03C56CC5285F313400EA33C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -129,10 +202,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C56CD0285F37B900EA33C3 /* SwiftyLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C56CB7285F313400EA33C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C56CC2285F313400EA33C3 /* ViewController.swift in Sources */,
+				03C56CBE285F313400EA33C3 /* AppDelegate.swift in Sources */,
+				03C56CC0285F313400EA33C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C56CC3285F313400EA33C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C56CC4285F313400EA33C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03C56CC8285F313500EA33C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C56CC9285F313500EA33C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		03C56CB2285F304C00EA33C3 /* Debug */ = {
@@ -260,6 +363,7 @@
 		03C56CB5285F304C00EA33C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +393,7 @@
 		03C56CB6285F304C00EA33C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -313,6 +419,62 @@
 			};
 			name = Release;
 		};
+		03C56CCD285F313500EA33C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3N7KR79S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftyLib-Cocoapods.SwiftyLibExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C56CCE285F313500EA33C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A3N7KR79S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftyLib-Cocoapods.SwiftyLibExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -330,6 +492,15 @@
 			buildConfigurations = (
 				03C56CB5285F304C00EA33C3 /* Debug */,
 				03C56CB6285F304C00EA33C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C56CCC285F313500EA33C3 /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C56CCD285F313500EA33C3 /* Debug */,
+				03C56CCE285F313500EA33C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
